@@ -6,11 +6,14 @@
 # Except the tmux and nvim directories
 !tmux/
 !nvim/
+!scripts/
 
 # Ignore everything inside tmux and nvim except their content
 tmux/*
 nvim/*
+scripts/*
 
 # Allow all files and subdirectories in tmux and nvim
 !tmux/**
 !nvim/**
+!scripts/*
